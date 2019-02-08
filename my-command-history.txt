@@ -1,0 +1,65 @@
+    1  mkdir CIT173_Lab4
+    2  ls -al /dev
+    3  ls -al /dev/ > ~/CIT173_Lab4/my-dev-nodes.txt
+    4  ls -al ~/CIT173_Lab4/
+    5  cat ~/CIT173_Lab4/my-dev-notes.txt >dev full
+    6  ls -al dev
+    7  ls -al /dev
+    8  head - c 1025 /dev/random > ~/CIT173_Lab4/my_random_data.txt
+    9  head - c 1024 /dev/random > ~/CIT173_Lab4/my_random_data.txt
+   10  ls ~/CIT173_Lab4/
+   11  head - c 1024 /dev/random > ~/CIT173_Lab4/my_random_data.txt
+   12  head -c 1024 /dev/random > ~/CIT173_Lab4/my_random_data.txt
+   13  lsmod > ~/CIT173_Lab4/my-modules-1.txt
+   14  modinfo nfs
+   15  modinfo nfs > ~/CIT173_Lab4/my-nfs-info.txt
+   16  ls _al ~/CIT173_Lab4/
+   17  sudo modprobe nfs
+   18  lsmod > ~/CIT173_Lab4/my-modules-2.txt
+   19  sudo rmmod nfs
+   20  lsmod > ~/CIT173_Lab4/my-modules-3.txt
+   21  sudo -i
+   22  man fdisk
+   23  fdisk -l
+   24  sudo fdisk -l
+   25  man fdisk
+   26  o
+   27  sudo gdisk
+   28  cd /dev
+   29  ls -al
+   30  cd /dev
+   31  cd
+   32  man gdisk
+   33  gdisk -l
+   34  sudo gdisk -l
+   35  sudo gdisk 
+   36  sudo gdisk /dev/sdb
+   37  cd /dev
+   38  ls
+   39  sudo gdisk /dev/sdb
+   40  ls /dev/sd*
+   41  sudo gdisk /dev/sdb
+   42  SL /DEV/SD*
+   43  ls /dev/sd*
+   44  cd /dev
+   45  ls
+   46  ls > ~/CIT173_Lab4/my-new-dev-nodes.txt
+   47  ls -al /dev/ > ~/CIT173_Lab4/my-new-dev-nodes.txt
+   48  sudo mkfs.ext4 /dev/sdb1 
+   49  sudo mkfs.ext4 /dev/sdb2
+   50  history |less
+   51  sudo mkdir /mnt/data
+   52  sudo mkdir /mnt/backup
+   53  ls /mnt
+   54  sudo mount /dev/sdb1 /mntdata
+   55  sudo mount /dev/sdb1 /mnt/data
+   56  sudo mount /dev/sdb2 /mnt/backup
+   57  mount
+   58  mount > ~/CIT173_Lab4/my-mounts.txt
+   59  clear
+   60  df
+   61  df > ~/CIT173_Lab4/my-disk-usage.txt
+   62  sudo unmount /dev/sdb1 /dev/sdb2
+   63  sudo umount /dev/sdb1 /dev/sdb2
+   64  df
+   65  history > ~/CIT173_Lab4/my-command-history.txt
